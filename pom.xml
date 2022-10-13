@@ -61,7 +61,7 @@
     <properties>
         <slf4j.version>1.7.30</slf4j.version>
         <junit.version>5.8.1</junit.version>
-        <mockito.version>3.9.0</mockito.version>
+        <mockito.version>4.8.0</mockito.version>
 
         <github.global.server>github</github.global.server>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -149,7 +149,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>2.17</version>
+                <version>3.2.0</version>
                 <configuration>
                     <configLocation>config/checkstyle.xml</configLocation>
                 </configuration>
@@ -221,7 +221,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.3.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -244,7 +244,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.0.0-M7</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
